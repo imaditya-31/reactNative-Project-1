@@ -26,9 +26,7 @@ export default function FancyCards() {
 const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
-        color: '#FFFFFF',
-        paddingHorizontal: 8,
-        marginBottom: 10,
+        paddingHorizontal: 16,
     },
     card: {
         height: 350,

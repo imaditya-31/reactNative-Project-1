@@ -52,8 +52,7 @@ export default function FlatCards() {
 const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
-        color: '#FFFFFF',
-        paddingHorizontal: 8,
+        paddingHorizontal: 16,
     },
     container: {
         flexDirection: 'row',

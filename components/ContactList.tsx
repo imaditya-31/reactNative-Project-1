@@ -37,7 +37,7 @@ export default function ContactList() {
     return (
         <View>
             <Text style={styles.headingText}>ContactList</Text>
-            <ScrollView style={styles.container}>
+            <ScrollView style={styles.container} scrollEnabled={false}>
                 {contacts.map(({ uid, name, gender, imageUrl }) => (
                     <View key={uid} style={styles.userCard}>
                         <Image
@@ -60,8 +60,7 @@ export default function ContactList() {
 const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
-        color: '#FFFFFF',
-        paddingHorizontal: 8,
+        paddingHorizontal: 16,
         marginBottom: 10,
     },
     container: {
@@ -74,6 +73,9 @@ const styles = StyleSheet.create({
         padding: 10,
         marginBottom: 10,
         borderRadius: 8,
+        borderColor: '#A6AEBF',
+        borderWidth: 0.5,
+        elevation: 3,
     },
     userImage: {
         height: 50,

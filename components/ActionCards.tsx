@@ -43,8 +43,7 @@ export default function ActionCards() {
 const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
-        color: '#FFFFFF',
-        paddingHorizontal: 8,
+        paddingHorizontal: 16,
     },
     card: {
         width: 360,

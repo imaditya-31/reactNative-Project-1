@@ -38,8 +38,7 @@ export default function ElevatedCards() {
 const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
-        color: '#FFFFFF',
-        paddingHorizontal: 8,
+        paddingHorizontal: 16,
     },
     container:{
         padding: 8,
